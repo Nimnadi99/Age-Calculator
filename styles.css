@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1.topic {
+    font-size: 50px;
+    margin: 12%;
+    color: white;
+    margin-bottom: 2%;
+}
+body{
+    background-color:blueviolet;
+}
+.sub-topic{
+    color: yellow;
+}
+.dataArea {
+    width: 40%;
+    background: yellow;
+    padding: 15px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12%;
+    border-radius: 5px;
+}
+input.dateInput {
+    width: 75%;
+    height: 38px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+button.calculateButton {
+    border: none;
+    border-radius: 5px;
+    padding: 16px;
+    background: blueviolet;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    outline: none;
+}
+p.currentAge {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 12%;
+    margin-top: 1%;
+    display: none;
+}
